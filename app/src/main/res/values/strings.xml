@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Random Restaurant</string>
+    <string name="find_restaurant">Find Restaurant</string>
+    <string name="hey">Hello World!</string>
 </resources>
