@@ -9,19 +9,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.zoedmora.randomrestaurant.MainActivity">
 
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/wolf">
+
+
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height= "170dp"
+            android:id="@+id/photo"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hey"
-        android:id="@+id/myTextView"/>
+        android:id="@+id/myTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/find_restaurant"
         android:id="@+id/findButton"
-        android:layout_marginBottom="164dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/myTextView"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginBottom="23dp" />
+
+
+
 </RelativeLayout>
