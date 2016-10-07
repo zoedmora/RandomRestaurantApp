@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Random Restaurant</string>
+    <string name="find_restaurant">Find Restaurant</string>
+    <string name="hey">Hello World!</string>
+    <string name="google_maps_key">AIzaSyCiGiwc9HK6rQpNM7ipgNomURqJYZqJUUU</string>
+
+</resources>
